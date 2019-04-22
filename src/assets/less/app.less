@@ -1,0 +1,58 @@
+@import "./_variables";
+@import "./_mixin";
+
+// @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: @colorTextBlack;
+    background-color: #fefefe;
+}
+
+form,
+h1,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+button,
+a,
+input {
+    outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-style: normal;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 60px auto;
+    text-align: center;
+    width: 80%;
+}
